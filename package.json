@@ -13,7 +13,7 @@
   "scripts": {
     "db:introspect": "dotenv -- prisma introspect",
     "db:generate": "dotenv -- prisma generate",
-    "postinstall": "tsc && cp src/index.d.ts dist/index.d.ts && npx prisma@4.5.0 generate"
+    "process": "tsc && cp src/index.d.ts dist/index.d.ts && npx prisma@4.5.0 generate"
   },
   "author": {
     "name": "Ben Hall",
