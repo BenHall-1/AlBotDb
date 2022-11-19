@@ -2,13 +2,23 @@
   "name": "albotdb",
   "version": "0.0.1",
   "description": "",
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:BenHall-1/AlBotDb.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/BenHall-1"
+  },
   "main": "index.js",
   "scripts": {
     "db:introspect": "dotenv -- prisma introspect",
     "db:generate": "dotenv -- prisma generate",
     "postinstall": "tsc && cp src/index.d.ts dist/index.d.ts && npx prisma@4.5.0 generate"
   },
-  "author": "",
+  "author": {
+    "name": "Ben Hall",
+    "email": "ben@benh.codes"
+  },
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^4.5.0"
