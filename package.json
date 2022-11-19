@@ -1,5 +1,5 @@
 {
-  "name": "albotdb",
+  "name": "@benhall-1/albotdb",
   "version": "0.0.1",
   "description": "",
   "repository": {
@@ -7,7 +7,7 @@
       "url": "git@github.com:BenHall-1/AlBotDb.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/BenHall-1"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "index.js",
   "scripts": {
