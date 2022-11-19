@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "outDir": "./dist/",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "strict": true, 
+        "isolatedModules": true,
+    },
+    "include": [
+      "src"
+    ]    
+}
